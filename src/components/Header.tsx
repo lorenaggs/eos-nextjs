@@ -212,7 +212,7 @@ export default function Header() {
 
             {/* Sidebar Drawer */}
             <aside
-                className={`fixed top-0 right-0 inset-y-0 h-[100dvh] w-[80%] max-w-sm bg-white dark:bg-[#111] z-[110] shadow-2xl transition-transform duration-300 ease-in-out lg:hidden flex flex-col ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+                className={`fixed top-0 right-0 inset-y-0 h-[100dvh] w-[80%] max-w-sm bg-[var(--background)] z-[110] shadow-2xl transition-transform duration-300 ease-in-out lg:hidden flex flex-col ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
                     }`}
             >
                 {/* Header of Sidebar (Colored) */}
@@ -221,14 +221,14 @@ export default function Header() {
                         <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center text-white overflow-hidden">
                             <img src="/logo-eos.svg" alt="Profile" className="w-full h-full object-cover p-1" />
                         </div>
-                        <div>
-                            <p className="font-bold text-black text-lg">EOS Ecuador</p>
-                            <p className="text-black/70 text-sm">Travel & Adventures</p>
+                        <div className='dark:hover:bg-white/5'>
+                            <p className="font-bold text-black text-lg text-gray-800 dark:text-gray-200 dark:hover:bg-white/5">EOS Ecuador</p>
+                            <p className="text-black/70 text-sm text-gray-800 dark:text-gray-200 dark:hover:bg-white/5 ">Travel & Adventures</p>
                         </div>
                     </div>
                     <button
                         onClick={() => setIsMenuOpen(false)}
-                        className="p-2 text-black/70 hover:text-black transition-colors"
+                        className="p-2 text-black/70 hover:text-black transition-colors text-gray-800 dark:text-gray-200 dark:hover:bg-white/5"
                         aria-label="Close menu"
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

@@ -25,15 +25,15 @@ export default function CruiseDecks({ decks }: CruiseDecksProps) {
     };
 
     return (
-        <div className="py-12 bg-white">
+        <div className="py-12 bg-[var(--background)]">
             <h2 className="text-3xl font-serif font-bold text-[var(--color-secondary)] mb-8 text-center">Deck Plans</h2>
 
             <div className="relative max-w-6xl mx-auto px-4">
                 {/* Carousel Container */}
-                <div className="relative bg-white rounded-xl shadow-2xl border border-gray-100 overflow-hidden">
+                <div className="relative bg-white dark:bg-[#1a1a1a] rounded-xl shadow-2xl border border-gray-100 dark:border-gray-800 overflow-hidden">
                     <div className="grid lg:grid-cols-[1.5fr_1fr]">
                         {/* Image Section */}
-                        <div className="relative h-80 lg:h-[500px] bg-gray-50 flex items-center justify-center p-8">
+                        <div className="relative h-80 lg:h-[500px] bg-gray-50 dark:bg-white/5 flex items-center justify-center p-8">
                             <Image
                                 src={decks[currentIndex].image}
                                 alt={decks[currentIndex].name}
@@ -43,17 +43,17 @@ export default function CruiseDecks({ decks }: CruiseDecksProps) {
                         </div>
 
                         {/* Content Section */}
-                        <div className="p-8 flex flex-col justify-center bg-white text-gray-800">
+                        <div className="p-8 flex flex-col justify-center bg-white dark:bg-[#1a1a1a] text-gray-800 dark:text-gray-100">
                             <div className="mb-2 text-[var(--color-primary)] font-bold tracking-widest text-sm uppercase">Deck Level</div>
                             <h3 className="text-3xl font-serif font-bold mb-4 text-[var(--color-secondary)]">
                                 {decks[currentIndex].name}
                             </h3>
                             <div className="w-12 h-1 bg-[var(--color-primary)] mb-6"></div>
-                            <p className="text-gray-600 leading-relaxed text-lg mb-8">
+                            <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-lg mb-8">
                                 {decks[currentIndex].description}
                             </p>
 
-                            <div className="flex justify-between items-center pt-6 border-t border-gray-100">
+                            <div className="flex justify-between items-center pt-6 border-t border-gray-100 dark:border-gray-800">
                                 <span className="text-sm text-gray-400 font-medium">
                                     Deck {currentIndex + 1} of {decks.length}
                                 </span>

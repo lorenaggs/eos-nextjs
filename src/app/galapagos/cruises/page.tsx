@@ -25,7 +25,7 @@ export default function GalapagosCruisesPage() {
     };
 
     return (
-        <div className="min-h-screen pb-20 bg-gray-50 dark:bg-[#0a0a0a] transition-colors duration-300">
+        <div className="min-h-screen pb-20 bg-[var(--background)]">
             <JsonLd data={jsonLd} />
             {/* Hero Section */}
             <section className="relative h-[60vh] flex items-center justify-center">

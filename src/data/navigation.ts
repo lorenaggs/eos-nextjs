@@ -18,7 +18,7 @@ export const NAVIGATION_ITEMS: NavigationItem[] = [
         ]
     },
     { name: 'Amazon', path: '/amazon', icon: 'tree' },
-    { name: 'Climbing & Trekking', path: '/climbing-trekking', icon: 'mountain' },
+    { name: 'Climbing & Trekking', path: '/climbing', icon: 'mountain' },
     { name: 'Custom Tours', path: '/custom-tours', icon: 'map' },
     { name: 'Contact', path: '/contact', icon: 'mail' }
 ];

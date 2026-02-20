@@ -29,7 +29,7 @@ export default function CruiseDetail({ cruise }: CruiseDetailProps) {
     const selectedItinerary = cruise.itineraries[selectedItineraryIndex];
 
     return (
-        <div className="bg-white min-h-screen pb-20">
+        <div className="bg-[var(--background)] min-h-screen pb-20">
             {/* Hero / Header Area for Cruise */}
             <div className="relative h-[50vh] w-full">
                 <Image
@@ -52,7 +52,7 @@ export default function CruiseDetail({ cruise }: CruiseDetailProps) {
                 </p>
 
                 {/* Technical Specifications & Safety */}
-                <div className="grid md:grid-cols-2 gap-12 mb-16 bg-gray-50 p-8 rounded-xl border border-gray-100 relative overflow-hidden">
+                <div className="grid md:grid-cols-2 gap-12 mb-16 bg-gray-50 dark:bg-white/5 p-8 rounded-xl border border-gray-100 dark:border-gray-800 relative overflow-hidden">
 
                     {/* Safety Equipment */}
                     {cruise.safetyEquipment && (

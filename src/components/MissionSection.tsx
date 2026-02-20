@@ -1,6 +1,6 @@
 export default function MissionSection() {
     return (
-        <section className="py-20 bg-white dark:bg-[#111] transition-colors duration-300">
+        <section className="py-20 bg-[var(--background)] transition-colors duration-300">
             <div className="container mx-auto px-4 max-w-4xl text-center">
                 <h2 className="text-3xl md:text-5xl font-serif font-bold text-[var(--color-secondary)] dark:text-[var(--color-brand-green)] mb-8 transition-colors">
                     Ecuador and Galapagos Sustainable Travel

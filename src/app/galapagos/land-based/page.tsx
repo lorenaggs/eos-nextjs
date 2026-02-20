@@ -25,7 +25,7 @@ export default function GalapagosLandBasedPage() {
     };
 
     return (
-        <div className="min-h-screen pb-20 bg-gray-50">
+        <div className="min-h-screen pb-20 bg-[var(--background)]">
             <JsonLd data={jsonLd} />
             {/* Hero */}
             <section className="relative h-[60vh] flex items-center justify-center">
@@ -50,7 +50,7 @@ export default function GalapagosLandBasedPage() {
             <section className="container mx-auto px-4 py-16">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {landBasedTours.map((tour) => (
-                        <div key={tour.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 flex flex-col">
+                        <div key={tour.id} className="bg-white dark:bg-[#1a1a1a] rounded-xl shadow-lg dark:shadow-[0_4px_20px_0_rgba(255,255,255,0.08)] overflow-hidden hover:shadow-2xl transition-all duration-300 flex flex-col border border-transparent dark:border-white/5">
                             <div className="relative h-64 w-full">
                                 <Image
                                     src={tour.highlightImage}
@@ -62,11 +62,11 @@ export default function GalapagosLandBasedPage() {
                                     {tour.duration}
                                 </div>
                             </div>
-                            <div className="p-6 flex flex-col flex-grow">
+                            <div className="p-6 flex flex-col flex-grow text-gray-800 dark:text-gray-200">
                                 <h3 className="text-2xl font-serif font-bold text-[var(--color-secondary)] mb-2 line-clamp-2 h-16">{tour.title}</h3>
-                                <p className="text-gray-600 text-sm mb-6 line-clamp-3 flex-grow">{tour.description}</p>
+                                <p className="text-gray-600 dark:text-gray-400 text-sm mb-6 line-clamp-3 flex-grow">{tour.description}</p>
 
-                                <div className="border-t border-gray-100 pt-4 flex items-center justify-between">
+                                <div className="border-t border-gray-100 dark:border-gray-800 pt-4 flex items-center justify-between">
                                     <span className="text-[var(--color-brand-green)] font-bold text-lg">{tour.price}</span>
                                     <Link
                                         href={`/galapagos/land-based/${tour.slug}`}

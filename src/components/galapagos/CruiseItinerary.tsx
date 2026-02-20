@@ -49,19 +49,19 @@ export default function CruiseItinerary({ itinerary }: CruiseItineraryProps) {
                                     <th className="px-6 py-4">Activity</th>
                                 </tr>
                             </thead>
-                            <tbody className="bg-white divide-y divide-gray-100 text-gray-700">
+                            <tbody className="bg-white dark:bg-[#1a1a1a] divide-y divide-gray-100 dark:divide-gray-800 text-gray-700 dark:text-gray-300">
                                 {itinerary.days.map((day, index) => (
                                     <React.Fragment key={index}>
                                         {/* AM Row */}
-                                        <tr className="hover:bg-gray-50 transition-colors">
-                                            <td rowSpan={2} className="px-6 py-4 font-bold text-gray-900 border-r border-gray-100 align-middle bg-white">
+                                        <tr className="hover:bg-gray-50 dark:hover:bg-white/5 transition-colors">
+                                            <td rowSpan={2} className="px-6 py-4 font-bold text-gray-900 dark:text-white border-r border-gray-100 dark:border-gray-800 align-middle bg-white dark:bg-[#1a1a1a]">
                                                 {day.day}
                                             </td>
                                             <td className="px-6 py-4 font-bold text-[var(--color-secondary)] text-center border-r border-gray-100">AM</td>
                                             <td className="px-6 py-4">{day.am.description}</td>
                                         </tr>
                                         {/* PM Row */}
-                                        <tr className="hover:bg-gray-50 transition-colors">
+                                        <tr className="hover:bg-gray-50 dark:hover:bg-white/5 transition-colors">
                                             <td className="px-6 py-4 font-bold text-[var(--color-secondary)] text-center border-r border-gray-100">PM</td>
                                             <td className="px-6 py-4">{day.pm.description}</td>
                                         </tr>
@@ -81,7 +81,7 @@ export default function CruiseItinerary({ itinerary }: CruiseItineraryProps) {
                             fill
                             className="object-contain p-4 bg-[var(--color-secondary)]"
                         />
-                        <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur px-4 py-2 rounded-lg shadow-sm">
+                        <div className="absolute bottom-4 right-4 bg-white/90 dark:bg-black/80 backdrop-blur px-4 py-2 rounded-lg shadow-sm">
                             <span className="text-[var(--color-secondary)] font-bold text-lg tracking-wide uppercase">{itinerary.name}</span>
                         </div>
                     </div>

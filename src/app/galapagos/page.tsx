@@ -49,7 +49,7 @@ export default function GalapagosPage() {
             </section>
 
             {/* Intro Text */}
-            <section className="py-20 bg-white">
+            <section className="py-20 bg-[var(--background)]">
                 <div className="container mx-auto px-4 max-w-4xl text-center">
                     <h2 className="text-3xl font-serif text-[var(--color-secondary)] mb-6">Discover wildlife, nature, and stunning views in this unforgettable enchanted place.</h2>
                     <p className="text-gray-600 leading-relaxed text-lg">
@@ -62,12 +62,12 @@ export default function GalapagosPage() {
             </section>
 
             {/* Categories Grid */}
-            <section className="py-10 pb-24 bg-gray-50">
+            <section className="py-10 pb-24 bg-[var(--background)]">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
 
                         {/* Cruises */}
-                        <Link href="/galapagos/cruises" className="group block bg-white shadow-lg hover:shadow-2xl transition-all duration-300 rounded-xl overflow-hidden transform hover:-translate-y-2">
+                        <Link href="/galapagos/cruises" className="group block bg-[var(--background)] shadow-lg hover:shadow-2xl transition-all duration-300 rounded-xl overflow-hidden transform hover:-translate-y-2 bg-white dark:bg-[#1a1a1a] rounded-xl shadow-lg dark:shadow-[0_4px_20px_0_rgba(255,255,255,0.08)] overflow-hidden hover:shadow-2xl transition-all duration-300 flex flex-col border border-transparent dark:border-white/5">
                             <div className="relative h-80 w-full overflow-hidden">
                                 <Image
                                     src="/galapagos_luxury_yacht.png"
@@ -86,7 +86,7 @@ export default function GalapagosPage() {
                         </Link>
 
                         {/* Land Based */}
-                        <Link href="/galapagos/land-based" className="group block bg-white shadow-lg hover:shadow-2xl transition-all duration-300 rounded-xl overflow-hidden transform hover:-translate-y-2">
+                        <Link href="/galapagos/land-based" className="group block bg-[var(--background)] shadow-lg hover:shadow-2xl transition-all duration-300 rounded-xl overflow-hidden transform hover:-translate-y-2 bg-white dark:bg-[#1a1a1a] rounded-xl shadow-lg dark:shadow-[0_4px_20px_0_rgba(255,255,255,0.08)] overflow-hidden hover:shadow-2xl transition-all duration-300 flex flex-col border border-transparent dark:border-white/5">
                             <div className="relative h-80 w-full overflow-hidden">
                                 <Image
                                     src="/galapagos_sea_lion_beach_relaxed.png"
@@ -105,7 +105,7 @@ export default function GalapagosPage() {
                         </Link>
 
                         {/* Diving */}
-                        <Link href="/galapagos/diving" className="group block bg-white shadow-lg hover:shadow-2xl transition-all duration-300 rounded-xl overflow-hidden transform hover:-translate-y-2">
+                        <Link href="/galapagos/diving" className="group block bg-[var(--background)] shadow-lg hover:shadow-2xl transition-all duration-300 rounded-xl overflow-hidden transform hover:-translate-y-2 bg-white dark:bg-[#1a1a1a] rounded-xl shadow-lg dark:shadow-[0_4px_20px_0_rgba(255,255,255,0.08)] overflow-hidden hover:shadow-2xl transition-all duration-300 flex flex-col border border-transparent dark:border-white/5">
                             <div className="relative h-80 w-full overflow-hidden">
                                 <Image
                                     src="/galapagos_hammerhead_shark.png"
