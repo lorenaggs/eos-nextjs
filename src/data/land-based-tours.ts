@@ -27,7 +27,7 @@ export const landBasedTours: Tour[] = [
         duration: "5 Days / 4 Nights",
         price: "Contact Us",
         description: "Experience the magic of the Galapagos in 5 days. Visit the lush highlands of Santa Cruz to see giant tortoises, explore the volcanic landscapes of Isabela Island, and snorkel with white-tip reef sharks and penguins in Tintoreras. A perfect blend of adventure and relaxation.",
-        highlightImage: "/galapagos_giant_tortoise.png",
+        highlightImage: "/galapagos/land-based-tours/galapagos_giant_tortoise.png",
         included: [
             "Transfers in/out in Santa Cruz and Isabela",
             "All tours and services mentioned in the itinerary",
@@ -85,7 +85,7 @@ export const landBasedTours: Tour[] = [
         duration: "6 Days / 5 Nights",
         price: "Contact Us",
         description: "An immersive 6-day journey featuring a full-day tour to an uninhabited island, hiking the massive Sierra Negra volcano, and the spectacular Los Tuneles snorkeling experience—often called the most beautiful snorkeling site in Isabela.",
-        highlightImage: "/galapagos_kicker_rock.png",
+        highlightImage: "/galapagos/land-based-tours/galapagos_kicker_rock.png",
         included: [
             "Round trip flight tickets from Quito or Guayaquil to the Galapagos Islands",
             "Land transportation for tours and all local transfers",
@@ -153,7 +153,7 @@ export const landBasedTours: Tour[] = [
         duration: "7 Days / 6 Nights",
         price: "Contact Us",
         description: "The ultimate week-long exploration covering San Cristobal, Santa Cruz, and Isabela islands. Highlights include snorkeling at Kicker Rock, hiking Sierra Negra, and swimming in the lava arches of Los Tuneles. A complete wildlife experience.",
-        highlightImage: "/galapagos_hammerhead_shark.png", // Reusing image as it fits "Kicker Rock" / diving vibes, or we could generate another if needed. User didn't ask for change here.
+        highlightImage: "/galapagos/land-based-tours/galapagos_hammerhead_shark.png", // Reusing image as it fits "Kicker Rock" / diving vibes, or we could generate another if needed. User didn't ask for change here.
         included: [
             "Land transportation for tours and all local transfers",
             "Bilingual certified naturalist guide for all tours specified",

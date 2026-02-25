@@ -31,7 +31,7 @@ export default function GalapagosLandBasedPage() {
             <section className="relative h-[60vh] flex items-center justify-center">
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src="/galapagos_sea_lion_beach_relaxed.png"
+                        src="/galapagos/land-based-tours/galapagos_sea_lion_beach_relaxed.png"
                         alt="Galapagos Land Based Tour"
                         fill
                         className="object-cover"

@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Cruise } from '@/data/cruises';
+import React from "react";
 
 interface CruiseCardProps {
     cruise: Cruise;

@@ -56,7 +56,7 @@ export const cruises: Cruise[] = [
         capacity: 16,
         length: 32,
         description: 'It is a luxury yacht, with a length of 32 meters and a capacity of 16 passengers, with 9 spacious cabins, most with a private balcony.',
-        image: '/galapagos_luxury_yacht.png',
+        image: '/galapagos/galapagos-cruises/galapagos_luxury_yacht.png',
         safetyEquipment: [
             '35 life jackets',
             '4 lifebuoys 9mm',
@@ -208,7 +208,7 @@ export const cruises: Cruise[] = [
         capacity: 16,
         length: 38, // Estimated
         description: 'The boat is elegant, fast, and quiet at sea. A motorized trimaran, the Camila is designed for comfort and stability and is equipped with spacious cabins, a comfortable lounge, and a jacuzzi.',
-        image: '/galapagos_luxury_yacht.png',
+        image: '/galapagos/galapagos-cruises/galapagos_luxury_yacht.png',
     },
     {
         id: 'elite',
@@ -218,7 +218,7 @@ export const cruises: Cruise[] = [
         capacity: 16,
         length: 37.5,
         description: 'The Elite Galapagos cruise ship is a luxury catamaran, built in 2019, designed to offer a comfortable and safe experience in the Galapagos Islands. Measuring 37.5 meters in length, the boat features spacious common areas and comfortable cabins.',
-        image: '/galapagos_luxury_yacht.png',
+        image: '/galapagos/galapagos-cruises/galapagos_luxury_yacht.png',
     },
     {
         id: 'endemic',
@@ -228,7 +228,7 @@ export const cruises: Cruise[] = [
         capacity: 16,
         length: 35, // Estimated
         description: 'Experience the "Enchanted Islands" on board the Endemic Luxury Cruise. Known for its design representing perfection, beauty, and uniqueness of this unique paradise.',
-        image: '/galapagos_luxury_yacht.png',
+        image: '/galapagos/galapagos-cruises/galapagos_luxury_yacht.png',
     },
     // First Class
     {
@@ -239,7 +239,7 @@ export const cruises: Cruise[] = [
         capacity: 16,
         length: 27, // Estimated
         description: 'Anahí is a cruise ship that promises an unforgettable experience. Its design provides stability while sailing, along with comfort and privacy. The Anahí Catamaran is the best option for making your Galapagos expedition unforgettable.',
-        image: '/galapagos_luxury_yacht.png',
+        image: '/galapagos/galapagos-cruises/galapagos_luxury_yacht.png',
     },
     {
         id: 'beluga',
@@ -249,7 +249,7 @@ export const cruises: Cruise[] = [
         capacity: 16,
         length: 27,
         description: 'The Beluga is a first-class motor yacht used for cruising in the Galapagos Islands. It is a sturdy and reliable vessel, built in 1968 and refurbished in 1986. It accommodates 16 passengers and has 8 cabins with private bathrooms, air conditioning, and safes.',
-        image: '/galapagos_luxury_yacht.png',
+        image: '/galapagos/galapagos-cruises/galapagos_luxury_yacht.png',
     },
     {
         id: 'cachalote',
@@ -259,7 +259,7 @@ export const cruises: Cruise[] = [
         capacity: 16, // Estimated
         length: 28, // Estimated
         description: 'Cruising aboard the M/Y Cachalote offers an intimate and relaxing experience. Enjoy the Galapagos sun on any of its three decks or simply relax with a book and the wind in your hair.',
-        image: '/galapagos_luxury_yacht.png',
+        image: '/galapagos/galapagos-cruises/galapagos_luxury_yacht.png',
     },
     {
         id: 'nemo-ii',
@@ -269,7 +269,7 @@ export const cruises: Cruise[] = [
         capacity: 14, // Estimated
         length: 22, // Estimated
         description: 'Experience the "Enchanted Islands" on board the Nemo II. Known for its design representing perfection, beauty, and uniqueness of this unique paradise.',
-        image: '/galapagos_luxury_yacht.png',
+        image: '/galapagos/galapagos-cruises/galapagos_luxury_yacht.png',
     },
     // Tourist
     {
@@ -280,7 +280,7 @@ export const cruises: Cruise[] = [
         capacity: 14,
         length: 20, // Estimated
         description: 'The Danubio Azul is a Tourist Class liveaboard. It offers naturalist and diving itineraries, visiting less-crowded sites and areas with greater biodiversity. It accommodates 14 passengers in 5 comfortable cabins with private bathrooms and air conditioning.',
-        image: '/galapagos_luxury_yacht.png',
+        image: '/galapagos/galapagos-cruises/galapagos_luxury_yacht.png',
     },
     {
         id: 'darwin',
@@ -290,6 +290,6 @@ export const cruises: Cruise[] = [
         capacity: 16, // Esimated
         length: 20, // Estimated
         description: 'Experience the "Enchanted Islands" on board the Darwin. Known for its design representing perfection, beauty, and uniqueness of this unique paradise.',
-        image: '/galapagos_luxury_yacht.png',
+        image: '/galapagos/galapagos-cruises/galapagos_luxury_yacht.png',
     }
 ];

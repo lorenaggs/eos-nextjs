@@ -24,7 +24,7 @@ export default function GalapagosDivingPage() {
             <section className="relative h-[60vh] flex items-center justify-center">
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src="/galapagos_hammerhead_shark.png"
+                        src="/galapagos/land-based-tours/galapagos_hammerhead_shark.png"
                         alt="Galapagos Diving"
                         fill
                         className="object-cover"

@@ -24,7 +24,7 @@ export default function AccessibleLodgePage() {
             <section className="relative h-[60vh] flex items-center justify-center">
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src="/amazon.png"
+                        src="/amazon/amazon.png"
                         alt="Accessible Amazon Lodge"
                         fill
                         className="object-cover"

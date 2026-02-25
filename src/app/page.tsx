@@ -11,7 +11,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "TravelAgency",
     "name": "Eos Ecuador Travel",
-    "image": "https://eosecuador.com/hero.jpg",
+    "image": "https://eosecuador.com/home/hero.jpg",
     "@id": "https://eosecuador.com",
     "url": "https://eosecuador.com",
     "telephone": "+593986945555",

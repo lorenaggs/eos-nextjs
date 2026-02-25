@@ -15,7 +15,7 @@ export default function AmazonPage() {
         "name": "Amazon Rainforest",
         "description": "The world's largest tropical rainforest, home to unmatched biodiversity.",
         "url": "https://eosecuador.com/amazon",
-        "image": "https://eosecuador.com/amazon.png"
+        "image": "https://eosecuador.com/amazon/amazon.png"
     };
 
     return (
@@ -76,7 +76,7 @@ export default function AmazonPage() {
                         <Link href="/amazon/deep-jungle-lodge" className="group block relative rounded-[2.5rem] overflow-hidden bg-white dark:bg-[#1a1a1a] shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-white dark:border-white/5 shadow-[0_10px_40px_rgba(0,0,0,0.04)] dark:shadow-none">
                             <div className="relative h-[28rem] w-full overflow-hidden">
                                 <Image
-                                    src="/amazon.png"
+                                    src="/amazon/amazon.png"
                                     alt="Deep Jungle Lodge"
                                     fill
                                     className="object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110"
@@ -98,7 +98,7 @@ export default function AmazonPage() {
                         <Link href="/amazon/accessible-lodge" className="group block relative rounded-[2.5rem] overflow-hidden bg-white dark:bg-[#1a1a1a] shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-white dark:border-white/5 shadow-[0_10px_40px_rgba(0,0,0,0.04)] dark:shadow-none">
                             <div className="relative h-[28rem] w-full overflow-hidden">
                                 <Image
-                                    src="/amazon.png"
+                                    src="/amazon/amazon.png"
                                     alt="Accessible Lodge"
                                     fill
                                     className="object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110"

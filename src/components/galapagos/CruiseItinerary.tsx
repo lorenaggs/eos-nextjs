@@ -22,17 +22,17 @@ export default function CruiseItinerary({ itinerary }: CruiseItineraryProps) {
                     </h2>
                 )}
 
-                <h3 className="text-2xl font-bold text-[var(--color-primary)] bg-gray-50 inline-block px-6 py-2 rounded-full">
+                <h3 className="text-2xl font-bold text-brand-green bg-gray-50 inline-block px-6 py-2 rounded-full">
                     {itinerary.duration}
                 </h3>
 
-                <div className="flex justify-center gap-6 text-[var(--color-primary)] text-sm font-medium pt-2">
+                <div className="flex justify-center gap-6 text-brand-green text-sm font-medium pt-2">
                     <button className="hover:underline flex items-center gap-1">
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
                         Itinerario detallado
                     </button>
                     <span className="text-gray-300">|</span>
-                    <Link href={`/contact?subject=Inquiry about the ${encodeURIComponent(itinerary.name)} Cruise`} className="text-[var(--color-secondary)] hover:underline flex items-center gap-1">
+                    <Link href={`/contact?subject=Inquiry about the ${encodeURIComponent(itinerary.name)} Cruise`} className="text-secondary hover:underline flex items-center gap-1">
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
                         Reservar Crucero
                     </Link>
@@ -47,7 +47,7 @@ export default function CruiseItinerary({ itinerary }: CruiseItineraryProps) {
                     <div className="flex justify-center mt-12 pt-4">
                         <Link
                             href={`/contact?subject=Inquiry about the ${encodeURIComponent(itinerary.name)} Cruise`}
-                            className="inline-flex items-center gap-3 px-8 py-4 bg-[var(--color-brand-green)] text-white text-lg font-bold rounded-xl hover:bg-[var(--color-brand-green-dark)] transition-all transform hover:scale-105 shadow-lg shadow-[var(--color-brand-green)]/30"
+                            className="inline-flex items-center gap-3 px-8 py-4 bg-brand-green text-white text-lg font-bold rounded-xl hover:bg-brand-green-dark transition-all transform hover:scale-105 shadow-lg shadow-brand-green/30"
                         >
                             Contact Us to Book
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
@@ -59,15 +59,15 @@ export default function CruiseItinerary({ itinerary }: CruiseItineraryProps) {
 
                 {/* Map Section - Order 1 on mobile, Order 2 on desktop (Right) */}
                 <div className="w-full lg:w-1/2 order-1 lg:order-2 sticky top-4">
-                    <div className="relative w-full aspect-[16/9] bg-gray-200 rounded-xl overflow-hidden shadow-2xl">
+                    <div className="relative w-full aspect-video bg-gray-200 rounded-xl overflow-hidden shadow-2xl">
                         <Image
                             src={itinerary.mapImage}
                             alt={`${itinerary.name} Map`}
                             fill
-                            className="object-contain p-4 bg-[var(--color-secondary)]"
+                            className="object-contain p-4 bg-secondary"
                         />
                         <div className="absolute bottom-4 right-4 bg-white/90 dark:bg-black/80 backdrop-blur px-4 py-2 rounded-lg shadow-sm">
-                            <span className="text-[var(--color-secondary)] font-bold text-lg tracking-wide uppercase">{itinerary.name}</span>
+                            <span className="text-secondary font-bold text-lg tracking-wide uppercase">{itinerary.name}</span>
                         </div>
                     </div>
                 </div>

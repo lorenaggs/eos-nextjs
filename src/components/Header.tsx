@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import { NAVIGATION_ITEMS } from '@/data/navigation';
 import { usePathname } from 'next/navigation';

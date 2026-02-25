@@ -14,7 +14,7 @@ export default function ClimbingPage() {
         "name": "Ecuadorian Andes",
         "description": "A climber&apos;s paradise featuring the Avenue of the Volcanoes.",
         "url": "https://eosecuador.com/climbing",
-        "image": "https://eosecuador.com/hero.jpg"
+        "image": "https://eosecuador.com/home/hero.jpg"
     };
 
     return (
@@ -25,7 +25,7 @@ export default function ClimbingPage() {
             <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0 z-0 scale-105">
                     <Image
-                        src="/hero.jpg"
+                        src="/home/hero.jpg"
                         alt="Andes Mountains Climbing"
                         fill
                         priority
@@ -75,7 +75,7 @@ export default function ClimbingPage() {
                         <div className="group block relative rounded-[2.5rem] overflow-hidden bg-white dark:bg-[#1a1a1a] shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-white dark:border-white/5 shadow-[0_10px_40px_rgba(0,0,0,0.04)] dark:shadow-none">
                             <div className="relative h-[28rem] w-full overflow-hidden">
                                 <Image
-                                    src="/hero.jpg"
+                                    src="/home/hero.jpg"
                                     alt="High Altitude Climbing"
                                     fill
                                     className="object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110"
@@ -97,7 +97,7 @@ export default function ClimbingPage() {
                         <div className="group block relative rounded-[2.5rem] overflow-hidden bg-white dark:bg-[#1a1a1a] shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-white dark:border-white/5 shadow-[0_10px_40px_rgba(0,0,0,0.04)] dark:shadow-none">
                             <div className="relative h-[28rem] w-full overflow-hidden">
                                 <Image
-                                    src="/hero.jpg"
+                                    src="/home/hero.jpg"
                                     alt="Trekking Tours"
                                     fill
                                     className="object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110"

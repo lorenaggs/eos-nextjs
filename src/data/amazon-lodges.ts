@@ -44,7 +44,7 @@ export const amazonLodges: AmazonLodge[] = [
         name: 'Napo Wildlife Center',
         location: 'Yasuní National Park',
         description: 'A luxurious and award-winning eco-lodge nestled deep within the Yasuní National Park. 100% owned and managed entirely by the indigenous Kichwa Añangu community, featuring an impressive observation tower, private lakeside cabins, and unparalleled wildlife viewing.',
-        image: '/amazon.png',
+        image: '/amazon/amazon.png',
         amenities: [
             '20 Private Cabins & Suites',
             'Hot Water & Private Bathrooms',
@@ -61,7 +61,7 @@ export const amazonLodges: AmazonLodge[] = [
                 title: 'Premium Tour',
                 description: 'Immerse yourself in the Amazon with our Premium Tour. Discover an exclusive journey that seamlessly combines elegance with the authenticity of the jungle.',
                 duration: '4 Days / 3 Nights',
-                image: '/amazon.png',
+                image: '/amazon/amazon.png',
                 inclusions: [
                     { title: 'Comfort in the middle of the jungle', description: 'Unwind in our cozy rooms surrounded by nature, with views of the lush rainforest, where modern comfort meets the serenity of the jungle.' },
                     { title: 'River transportation', description: 'Travel comfortably on our river transport Coca - Napo Wildlife Center - Coca, enjoying the majestic Napo River as you head to the lodge and back to Coca.' },
@@ -112,7 +112,7 @@ export const amazonLodges: AmazonLodge[] = [
                 title: 'Extended Stay',
                 description: 'Extend your stay and immerse yourself in the Amazon with our Extended Stay. Enjoy an extended experience that allows you to explore every corner, delve into the richness of the jungle, and connect with nature on a deeper level.',
                 duration: '5 Days / 4 Nights',
-                image: '/amazon.png',
+                image: '/amazon/amazon.png',
                 inclusions: [
                     { title: 'Comfort in the middle of the jungle', description: 'Unwind in our cozy rooms surrounded by nature, with views of the lush rainforest, where modern comfort meets the serenity of the jungle.' },
                     { title: 'River transportation', description: 'Travel comfortably on our river transport Coca - Napo Wildlife Center - Coca, enjoying the majestic Napo River as you head to the lodge and back to Coca.' },
@@ -168,7 +168,7 @@ export const amazonLodges: AmazonLodge[] = [
                 title: 'Adventure Tour',
                 description: 'Extend your stay and immerse yourself in the Amazon with our Extended Stay. Enjoy an extended experience that allows you to explore every corner, delve into the richness of the jungle, and connect with nature on a deeper level.',
                 duration: '6 Days / 5 Nights',
-                image: '/amazon.png',
+                image: '/amazon/amazon.png',
                 inclusions: [
                     { title: 'Comfort in the middle of the jungle', description: 'Unwind in our cozy rooms surrounded by nature, with views of the lush rainforest, where modern comfort meets the serenity of the jungle.' },
                     { title: 'River transportation', description: 'Travel comfortably on our river transport Coca - Napo Wildlife Center - Coca, enjoying the majestic Napo River as you head to the lodge and back to Coca.' },
@@ -229,7 +229,7 @@ export const amazonLodges: AmazonLodge[] = [
                 title: 'Explore Tour',
                 description: 'Be a true explorer, uncovering the hidden secrets of the Amazon through exclusive routes and experiences guided by local experts.',
                 duration: '7 Days / 6 Nights',
-                image: '/amazon.png',
+                image: '/amazon/amazon.png',
                 inclusions: [
                     { title: 'Comfort in the middle of the jungle', description: 'Unwind in our cozy rooms surrounded by nature, with views of the lush rainforest, where modern comfort meets the serenity of the jungle.' },
                     { title: 'River transportation', description: 'Travel comfortably on our river transport Coca - Napo Wildlife Center - Coca, enjoying the majestic Napo River as you head to the lodge and back to Coca.' },
@@ -295,7 +295,7 @@ export const amazonLodges: AmazonLodge[] = [
                 title: 'Cultural and Adventure',
                 description: 'Be a true explorer, uncovering the hidden secrets of the Amazon through exclusive routes and experiences guided by local experts.',
                 duration: '8 Days / 7 Nights',
-                image: '/amazon.png',
+                image: '/amazon/amazon.png',
                 inclusions: [
                     { title: 'Comfort in the middle of the jungle', description: 'Unwind in our cozy rooms surrounded by nature, with views of the lush rainforest, where modern comfort meets the serenity of the jungle.' },
                     { title: 'River transportation', description: 'Travel comfortably on our river transport Coca - Napo Wildlife Center - Coca, enjoying the majestic Napo River as you head to the lodge and back to Coca.' },
@@ -366,7 +366,7 @@ export const amazonLodges: AmazonLodge[] = [
                 title: 'Birding Tour 4 days / 3 nights',
                 description: 'Enjoy an exclusive 4-day / 3-night Birding Tour for the best birdwatching experience in Yasuni National Park. Spot more than 600 species, from macaws and toucans to rare birds such as the Zigzag Heron or the Orange-crested Manakin, guided by expert naturalists at the Napo Wildlife Center.',
                 duration: '4 Days / 3 Nights',
-                image: '/amazon.png',
+                image: '/amazon/amazon.png',
                 inclusions: [
                     { title: 'Comfort in the jungle', description: 'Relax in comfortable rooms surrounded by nature, with views of the tropical forest, where modern comfort meets Amazonian serenity.' },
                     { title: 'River transport', description: 'Travel comfortably on our Coca – Napo Wildlife Center – Coca transfer, enjoying the majestic Napo River along the way.' },
@@ -417,7 +417,7 @@ export const amazonLodges: AmazonLodge[] = [
                 title: 'Birding Tour 5 Days / 4 Nights',
                 description: 'Experience the ultimate birdwatching adventure in Yasuní National Park with our 5-day / 4-night Birding Tour at the Napo Wildlife Center. This program is designed for birdwatchers and nature photographers who wish to deeply explore the rich habitats and microhabitats of the Ecuadorian Amazon.',
                 duration: '5 Days / 4 Nights',
-                image: '/amazon.png',
+                image: '/amazon/amazon.png',
                 inclusions: [
                     { title: 'Comfort in the jungle', description: 'Relax in comfortable rooms surrounded by nature, with views of the tropical forest, where modern comfort meets Amazonian serenity.' },
                     { title: 'River transport', description: 'Travel comfortably on our Coca – Napo Wildlife Center – Coca transfer, enjoying the majestic Napo River along the way.' },
@@ -473,7 +473,7 @@ export const amazonLodges: AmazonLodge[] = [
                 title: 'Birding Tour 6 Days / 5 Nights',
                 description: 'Dive deeper into birdwatching in Yasuní National Park with the 6-day / 5-night Birding Tour at Napo Wildlife Center. With more time at the lodge, you’ll observe iconic species, explore diverse ecosystems, and maximize your wildlife photography opportunities.',
                 duration: '6 Days / 5 Nights',
-                image: '/amazon.png',
+                image: '/amazon/amazon.png',
                 inclusions: [
                     { title: 'Comfort in the jungle', description: 'Relax in comfortable rooms surrounded by nature, with views of the tropical forest, where modern comfort meets Amazonian serenity.' },
                     { title: 'River transport', description: 'Travel comfortably on our Coca – Napo Wildlife Center – Coca transfer, enjoying the majestic Napo River along the way.' },
@@ -535,7 +535,7 @@ export const amazonLodges: AmazonLodge[] = [
         name: 'Napo Cultural Center',
         location: 'Yasuní National Park',
         description: 'Situated on the banks of the Napo River, this eco-lodge focuses on cultural immersion with the Kichwa Añangu community. Enjoy high-comfort, eco-friendly cabins and immersive traditional activities while exploring the Yasuní ecosystem.',
-        image: '/amazon.png',
+        image: '/amazon/amazon.png',
         amenities: [
             '16 Independent Eco-Cabins',
             'Private Bathrooms with Hot Water',
@@ -550,7 +550,7 @@ export const amazonLodges: AmazonLodge[] = [
                 name: 'Cultural Explorer (4D/3N)',
                 title: 'Ancestral Traditions Meets Amazonian Nature',
                 description: 'A 4-day deep dive into the ancestral traditions of the Kichwa Añangu community, perfectly blended with nature walks and river exploration.',
-                image: '/amazon.png',
+                image: '/amazon/amazon.png',
                 duration: '4 Days / 3 Nights',
                 days: [
                     {
@@ -583,7 +583,7 @@ export const amazonLodges: AmazonLodge[] = [
         name: 'Mandari Panga',
         location: 'Yasuní National Park (Tiputini River)',
         description: 'Located deep within Yasuní National Park along the pristine Tiputini River, this authentic eco-camping experience offers comfortable safari-style tents. Perfect for adventurous travelers looking for an untouched rainforest environment.',
-        image: '/amazon.png',
+        image: '/amazon/amazon.png',
         amenities: [
             'Safari-style Tents on Elevated Platforms',
             'Direct River Views',
@@ -598,7 +598,7 @@ export const amazonLodges: AmazonLodge[] = [
                 name: 'Jungle Expedition (5D/4N)',
                 title: 'Deep Wilderness Eco-Camping Experience',
                 description: 'Experience 5 days of thrilling eco-camping and deep forest exploration along the remote Tiputini River.',
-                image: '/amazon.png',
+                image: '/amazon/amazon.png',
                 duration: '5 Days / 4 Nights',
                 days: [
                     {
@@ -636,7 +636,7 @@ export const amazonLodges: AmazonLodge[] = [
         name: 'Sani Lodge',
         location: 'Yasuní Edge (Challuacocha Lake)',
         description: 'Situated on the stunning Challuacocha Lake, this sustainable lodge is fully operated by the Sani Isla Kichwa community. Experience world-class birdwatching, thrilling night hikes, and see the rich biodiversity of the Amazon.',
-        image: '/amazon.png',
+        image: '/amazon/amazon.png',
         amenities: [
             'Thatch-roofed Cabanas',
             'Private Bathrooms with Running Water',
@@ -651,7 +651,7 @@ export const amazonLodges: AmazonLodge[] = [
                 name: 'Biodiversity Focus (4D/3N)',
                 title: 'Wildlife Encounters & Canoe Explorations',
                 description: 'Spend 4 days exploring the incredible biodiversity of the Challuacocha Lake, featuring canopy birdwatching and night hikes.',
-                image: '/amazon.png',
+                image: '/amazon/amazon.png',
                 duration: '4 Days / 3 Nights',
                 days: [
                     {
@@ -684,7 +684,7 @@ export const amazonLodges: AmazonLodge[] = [
         name: 'Nicky Amazon Lodge',
         location: 'Cuyabeno Wildlife Reserve',
         description: 'A traditional, indigenous-style lodge located in the Cuyabeno Wildlife Reserve. Features guided canoe excursions through the flooded "Igapó" forest and incredible night hikes.',
-        image: '/amazon.png',
+        image: '/amazon/amazon.png',
         amenities: [
             'Traditional Rustic Cabins',
             'Private Bathrooms & Hot Showers',
@@ -699,7 +699,7 @@ export const amazonLodges: AmazonLodge[] = [
                 name: 'Cuyabeno Expedition (4D/3N)',
                 title: 'Flooded Forests & Pink River Dolphins',
                 description: 'Venture into the Cuyabeno Wildlife Reserve on this 4-day expedition through flooded "Igapó" forests seeking pink river dolphins and exotic fauna.',
-                image: '/amazon.png',
+                image: '/amazon/amazon.png',
                 duration: '4 Days / 3 Nights',
                 days: [
                     {

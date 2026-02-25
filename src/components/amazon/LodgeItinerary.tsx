@@ -20,7 +20,7 @@ export default function LodgeItinerary({ itinerary, lodgeName }: LodgeItineraryP
                     </h2>
                 )}
 
-                <h3 className="text-2xl font-bold text-[var(--color-primary)] bg-gray-50 dark:bg-gray-800 inline-block px-6 py-2 rounded-full shadow-sm">
+                <h3 className="text-2xl font-bold text-brand-green bg-gray-50 dark:bg-gray-800 inline-block px-6 py-2 rounded-full shadow-sm">
                     {itinerary.duration}
                 </h3>
             </div>
@@ -35,7 +35,7 @@ export default function LodgeItinerary({ itinerary, lodgeName }: LodgeItineraryP
             <div className="flex justify-center mt-12 pt-8">
                 <Link
                     href={`/contact?subject=Inquiry about ${encodeURIComponent(lodgeName ? `${lodgeName} - ${itinerary.name}` : itinerary.name)}`}
-                    className="inline-flex items-center gap-3 px-8 py-4 bg-[var(--color-brand-green)] text-white text-lg font-bold rounded-xl hover:bg-[var(--color-brand-green-dark)] transition-all transform hover:scale-105 shadow-lg shadow-[var(--color-brand-green)]/30"
+                    className="inline-flex items-center gap-3 px-8 py-4 bg-brand-green text-white text-lg font-bold rounded-xl hover:bg-brand-green-dark transition-all transform hover:scale-105 shadow-lg shadow-brand-green/30"
                 >
                     Contact Us to Book
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">

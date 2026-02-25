@@ -6,7 +6,7 @@ export default function Hero() {
         <section className="relative h-[85vh] flex items-center justify-center overflow-hidden ">
             <div className="absolute inset-0 z-0 scale-105 pointer-events-none">
                 <Image
-                    src="/hero.jpg"
+                    src="/home/hero.jpg"
                     alt="Tropical paradise landscape with beach and sunset"
                     fill
                     sizes="100vw"

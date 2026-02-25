@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="bg-[var(--color-gray-dark)] text-white py-4 border-t border-white/10 mt-auto">
+        <footer className="bg-(--color-gray-dark) text-white py-4 border-t border-white/10 mt-auto">
             <div className="container mx-auto px-6 md:px-12">
 
                 {/* Top Section: Branding */}
@@ -41,12 +41,12 @@ export default function Footer() {
                                     href="https://wa.me/593986945555"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="hover:text-[var(--color-brand-green)] transition-colors ml-1"
+                                    className="hover:text-(--color-brand-green) transition-colors ml-1"
                                 >
                                     +593 98 694 5555
                                 </a>
                             </p>
-                            <p>Email: <a href="mailto:eos@eosecuador.com" className="hover:text-[var(--color-brand-green)] transition-colors ml-1">eos@eosecuador.com</a></p>
+                            <p>Email: <a href="mailto:eos@eosecuador.com" className="hover:text-(--color-brand-green) transition-colors ml-1">eos@eosecuador.com</a></p>
                         </div>
                     </div>
 
