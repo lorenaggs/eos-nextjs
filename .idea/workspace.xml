@@ -4,30 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0ce629f-fc5d-42a7-a9cc-2883db347399" name="Changes" comment="feat: Add commit message inspection profile and update VCS directory mapping">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/amazon/accessible-lodge/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/amazon/accessible-lodge/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/amazon/deep-jungle-lodge/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/amazon/deep-jungle-lodge/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/amazon/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/amazon/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/climbing/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/climbing/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/galapagos/diving/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/galapagos/diving/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/galapagos/land-based/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/galapagos/land-based/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DestinationPreview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DestinationPreview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+    <list default="true" id="c0ce629f-fc5d-42a7-a9cc-2883db347399" name="Changes" comment="fix: Update image paths and import React in multiple components">
       <change beforePath="$PROJECT_DIR$/src/components/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/amazon/LodgeItinerary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/amazon/LodgeItinerary.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/galapagos/CruiseCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/galapagos/CruiseCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/galapagos/CruiseDetail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/galapagos/CruiseDetail.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/galapagos/CruiseItinerary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/galapagos/CruiseItinerary.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/ItineraryInclusions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/ItineraryInclusions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/amazon-lodges.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/amazon-lodges.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/cruises.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/cruises.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/land-based-tours.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/land-based-tours.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +115,7 @@
       <workItem from="1771977660063" duration="4077000" />
       <workItem from="1771988387405" duration="952000" />
       <workItem from="1771989357719" duration="198000" />
-      <workItem from="1771989756193" duration="1305000" />
+      <workItem from="1771989756193" duration="1646000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add server setup for Next.js application with HTTP server integration">
       <option name="closed" value="true" />
@@ -154,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771989405032</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix: Update image paths and import React in multiple components">
+      <option name="closed" value="true" />
+      <created>1771991106683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771991106683</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +150,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Add server setup for Next.js application with HTTP server integration" />
     <MESSAGE value="feat: Add commit message inspection profile and update VCS directory mapping" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add commit message inspection profile and update VCS directory mapping" />
+    <MESSAGE value="fix: Update image paths and import React in multiple components" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Update image paths and import React in multiple components" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
