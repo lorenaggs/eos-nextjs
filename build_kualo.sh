@@ -60,7 +60,8 @@ fi
 # public/_next/ (copiado de .next/static)
 mkdir -p .eos-landing/public/_next
 if [ -d ".next/static" ]; then
-  cp -r .next/static/* .eos-landing/public/_next/
+  mkdir -p .eos-landing/public/_next/static
+  cp -r .next/static/* .eos-landing/public/_next/static
   echo "✅ Copiado public/_next/"
 else
   echo "⚠️ '.next/static/' no encontrado, ignorando..."
