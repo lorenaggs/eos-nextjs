@@ -43,6 +43,15 @@ if [ -d ".next/standalone/.next" ]; then
   echo "✅ Copiado .next/"
 fi
 
+# .next/static/ (el que está en .next/static)
+if [ -d ".next/static" ]; then
+  mkdir -p .eos-landing/.next/static
+  cp -r .next/static/* .eos-landing/.next/static/
+  echo "✅ Copiado .next/static/"
+else
+  echo "⚠️ '.next/static/' no encontrado, ignorando..."
+fi
+
 # node_modules/ (el que está dentro de .next/standalone)
 if [ -d ".next/standalone/node_modules" ]; then
   cp -r .next/standalone/node_modules .eos-landing/node_modules
@@ -57,14 +66,13 @@ else
   echo "⚠️ 'public/' no encontrado en la raíz, ignorando..."
 fi
 
-# public/_next/ (copiado de .next/static)
+# public/_next/ (copiado de .eos-landing/.next)
 mkdir -p .eos-landing/public/_next
-if [ -d ".next/static" ]; then
-  mkdir -p .eos-landing/public/_next/static
-  cp -r .next/static/* .eos-landing/public/_next/static
-  echo "✅ Copiado public/_next/"
+if [ -d ".eos-landing/.next" ]; then
+  cp -a .eos-landing/.next/. .eos-landing/public/_next/
+  echo "✅ Copiado public/_next/ desde .eos-landing/.next"
 else
-  echo "⚠️ '.next/static/' no encontrado, ignorando..."
+  echo "⚠️ '.eos-landing/.next/' no encontrado, ignorando..."
 fi
 
 # package.json (de .next/standalone)
